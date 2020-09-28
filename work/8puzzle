@@ -1,0 +1,14 @@
+import random
+value = random.randint(1,8)
+print(value)
+table = [0,0,0,0,0,0,0,0]
+#
+for j in range(8):{
+    x = random.randint(1,8)
+    l = random.randint(1,8)
+    if x != table[1] && x != table[2] && x != table[3] && x != table[4] && x != table[5] && x != table[6] && x != table[7] && x != table[8]:{
+    table[l] = x
+    }
+}#
+for i in table:
+    print(i)
